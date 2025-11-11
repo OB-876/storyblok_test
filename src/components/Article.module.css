@@ -1,0 +1,97 @@
+body.body-bg-color {
+    background-color: #020817 !important;
+}
+
+.article {
+  min-height: 100vh;
+  background: #020817;
+  color: #e5e7eb;
+  padding: 5rem 1.5rem 4rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.inner {
+  /* max-width: 720px; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Label */
+.kicker {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #38bdf8;
+  opacity: 0.9;
+}
+
+/* Title + subtitle */
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 0.5rem;
+}
+
+.subtitle {
+  max-width: 32rem;
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin: 0;
+}
+
+/* Cover image */
+.coverWrapper {
+  border-radius: 1.5rem;
+  border: 1px solid rgba(148, 163, 253, 0.12);
+  background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.09), transparent),
+              rgba(2, 6, 23, 0.98);
+  overflow: hidden;
+}
+
+.coverImage {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Body (basic typography) */
+.body {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #e5e7eb;
+}
+
+.body p {
+  margin: 0 0 1rem;
+}
+
+.body h2,
+.body h3,
+.body h4 {
+  margin: 1.5rem 0 0.5rem;
+  font-weight: 600;
+  color: #f9fafb;
+}
+
+.body ul,
+.body ol {
+  padding-left: 1.2rem;
+  margin: 0 0 1rem;
+}
+
+.body li {
+  margin: 0.15rem 0;
+}
+
+.body a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.body a:hover {
+  text-decoration: underline;
+}
